@@ -1,4 +1,12 @@
+import HelloReact from "./components/01-hello/hello-react";
+import HelloWorld from "./components/01-hello/hello-world";
+
 const App = () => {
-  return <h1>Hello World</h1>;
+  return (
+    <main>
+      <HelloWorld />
+      <HelloReact />
+    </main>
+  );
 };
 export default App;
